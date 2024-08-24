@@ -3,14 +3,34 @@ body {
   padding: 0;
   background-color: #303030;
   color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
-div {
-  width: 300px;
+.grid-container {
+  width: 80vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+h1 {
+  text-align: center;
 }
 img {
   width: 100%;
   border-radius: 10px;
 }
+@media (min-width: 576px){
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 768px){
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+/*@media (min-width: 992px){
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}*/
+
