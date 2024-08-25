@@ -28,9 +28,4 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-/*@media (min-width: 992px){
-  .grid-container {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}*/
 
